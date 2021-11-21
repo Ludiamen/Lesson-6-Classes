@@ -218,12 +218,12 @@ print()
 
 # Выводим результат сравнения студентов по средним оценкам за домашние задания
 print(f'Результат сравнения студентов (по средним оценкам за ДЗ): '
-      f'{student_1.name} {student_1.surname} и {student_2.name} {student_2.surname} = {student_1 > student_2}')
+      f'{student_1.name} {student_1.surname} < {student_2.name} {student_2.surname} = {student_1 > student_2}')
 print()
 
 # Выводим результат сравнения лекторов по средним оценкам за лекции
 print(f'Результат сравнения лекторов (по средним оценкам за лекции): '
-      f'{best_lecturer_1.name} {best_lecturer_1.surname} и {best_lecturer_2.name} {best_lecturer_2.surname} = {best_lecturer_1 > best_lecturer_2}')
+      f'{best_lecturer_1.name} {best_lecturer_1.surname} < {best_lecturer_2.name} {best_lecturer_2.surname} = {best_lecturer_1 > best_lecturer_2}')
 print()
 
 # Создаем список студентов
